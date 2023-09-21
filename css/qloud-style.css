@@ -207,14 +207,14 @@ footer .footer-top { padding-top: 60px; }
 
 /*footer top bar*/
 footer .footer-titlebox { margin-bottom: 30px; position: relative; }
-footer .footer-topbar {  position: relative; z-index: 1; padding: 40px 0; background: #0b1a58; }
+footer .footer-topbar {  position: relative; z-index: 1; padding: 40px 0; background: #279EFF; }
 footer .footer-topbar .footer-title { color: #ffffff; }
 footer .footer-topbar  p { margin-bottom: 0; }
 footer .footer-topbar .widget, footer .footer-topbar .widget:last-child { margin-bottom: 0; }
 
 /* Footer 1 */
 footer .footer1 { padding: 0; }
-footer { background: #0d1e67; }
+footer { background: #0C356A; }
 footer .footer-top, footer .footer-top .widget ul li a, footer .calendar_wrap caption { color: #ffffff; }
 footer .footer-top .widget ul { padding: 0; margin: 0; }
 footer .footer-top .widget ul.iq-contact { padding-left: 0px; }
@@ -1010,7 +1010,7 @@ ol.commentlist .pingback a:hover, ol.commentlist .trackback a:hover { color: #0d
 .iq-breadcrumb.text-left .breadcrumb li a, .iq-breadcrumb.text-left .breadcrumb-item+.breadcrumb-item::before { color: #ffffff; margin-bottom: 0; }
 .breadcrumb li { display: inline-block; word-break: break-all; }
 .iq-breadcrumb-two { padding: 45px 0; position: relative; z-index: 2; }
-.iq-breadcrumb-one { display: block; padding: 150px 0 100px; z-index: 9; position: relative; background: #0d1e67; }
+.iq-breadcrumb-one { display: block; padding: 150px 0 100px; z-index: 9; position: relative; background: #0C356A; }
 .iq-breadcrumb-one ol li a { color: #fff; text-decoration: none; }
 .iq-breadcrumb-one ol li { list-style: none; display: inline-block; }
 .iq-breadcrumb-one .breadcrumb-item+.breadcrumb-item::before { content: "\f3d3"; color: #ffffff; font-family: "Ionicons"; }
