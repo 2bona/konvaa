@@ -43,8 +43,8 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 /*---------------------------------------------------------------------
   HTML Tags 
 -----------------------------------------------------------------------*/
-a { color: #007bfc; outline: none; }
-a:focus, a:hover { color: #0d1e67; outline: none; }
+a { color: #27005D; outline: none; }
+a:focus, a:hover { color: #27005D; outline: none; }
 ins { background: #fff9c0; text-decoration: none; }
 img { max-width: 100%; height: auto; }
 pre { background: #eeeeee; padding: 15px; border: 1px solid #eeeeee; }
@@ -86,7 +86,7 @@ textarea:-ms-input-placeholder { color: inherit; }
 input[type=email]::-webkit-input-placeholder { color: inherit; }
 input[type=email]::-moz-placeholder { color: inherit; }
 input[type=email]:-ms-input-placeholder { color: inherit; }
-input[type=submit], .contact-form .cfield input[type=submit], [type=submit], .iq-button { color: #ffffff; background: #007BFC; cursor: pointer; margin-bottom: 0; text-decoration: none; height: auto; padding: 10px 30px; font-size: 1em; line-height: 2; border: none; position: relative; display: inline-block; width: auto; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; cursor: pointer; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+input[type=submit], .contact-form .cfield input[type=submit], [type=submit], .iq-button { color: #ffffff; background: #27005D; cursor: pointer; margin-bottom: 0; text-decoration: none; height: auto; padding: 10px 30px; font-size: 1em; line-height: 2; border: none; position: relative; display: inline-block; width: auto; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; cursor: pointer; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 input[type=submit]:hover, .contact-form .cfield input[type=submit]:hover, .iq-button:hover, .iq-button:focus { color: #ffffff; background: #0d1e67; outline: none; text-decoration: none; }
 input[type=checkbox] { width: auto; margin-right: 10px; line-height: 2; height: auto;margin-top: 0.2rem; }
 .comments-area blockquote { background: #ffffff; }
@@ -119,8 +119,8 @@ header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-na
 header .button, header .button-line { margin-top: 0; margin-left: 15px; }
 
 /*Header Two*/
-header.header2 .navbar .navbar-nav .nav-item a { color: #142149; }
-header.header2 .sub-main ul li a.iq-btn-outline { color: #007bfc; }
+header.header2 .navbar .navbar-nav .nav-item a { color: #AED2FF; }
+header.header2 .sub-main ul li a.iq-btn-outline { color: #AED2FF }
 header.header2 .navbar .navbar-nav .nav-item a:hover, header.header2 .navbar .navbar-nav .nav-item a:focus, header.header2 .navbar .navbar-nav .nav-item a.active, header.header2 .navbar .navbar-nav .nav-item a.active:focus, header.header2 .navbar .navbar-nav .nav-item a.active:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {  color: #007bfc; }
 
 header.header2.menu-sticky { background: #ffffff; }
@@ -207,14 +207,14 @@ footer .footer-top { padding-top: 60px; }
 
 /*footer top bar*/
 footer .footer-titlebox { margin-bottom: 30px; position: relative; }
-footer .footer-topbar {  position: relative; z-index: 1; padding: 40px 0; background: #279EFF; }
+footer .footer-topbar {  position: relative; z-index: 1; padding: 40px 0; background: #AED2FF; }
 footer .footer-topbar .footer-title { color: #ffffff; }
 footer .footer-topbar  p { margin-bottom: 0; }
 footer .footer-topbar .widget, footer .footer-topbar .widget:last-child { margin-bottom: 0; }
 
 /* Footer 1 */
 footer .footer1 { padding: 0; }
-footer { background: #0C356A; }
+footer { background: #27005D; }
 footer .footer-top, footer .footer-top .widget ul li a, footer .calendar_wrap caption { color: #ffffff; }
 footer .footer-top .widget ul { padding: 0; margin: 0; }
 footer .footer-top .widget ul.iq-contact { padding-left: 0px; }
@@ -1010,7 +1010,7 @@ ol.commentlist .pingback a:hover, ol.commentlist .trackback a:hover { color: #0d
 .iq-breadcrumb.text-left .breadcrumb li a, .iq-breadcrumb.text-left .breadcrumb-item+.breadcrumb-item::before { color: #ffffff; margin-bottom: 0; }
 .breadcrumb li { display: inline-block; word-break: break-all; }
 .iq-breadcrumb-two { padding: 45px 0; position: relative; z-index: 2; }
-.iq-breadcrumb-one { display: block; padding: 150px 0 100px; z-index: 9; position: relative; background: #0C356A; }
+.iq-breadcrumb-one { display: block; padding: 150px 0 100px; z-index: 9; position: relative; background: #27005D; }
 .iq-breadcrumb-one ol li a { color: #fff; text-decoration: none; }
 .iq-breadcrumb-one ol li { list-style: none; display: inline-block; }
 .iq-breadcrumb-one .breadcrumb-item+.breadcrumb-item::before { content: "\f3d3"; color: #ffffff; font-family: "Ionicons"; }
