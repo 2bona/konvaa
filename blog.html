@@ -1,373 +1,270 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Karrab - cloud infrastructure design and deployment service</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <!-- itsulu css -->
-    <link rel="stylesheet" href="css/style.css">
-      <title>Hancuu || Data Analytics</title>
-    <!-- itsulu favicon -->
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
-
-<body>
-
-    <!-- wrapper -->
-    <div class="mil-wrapper">
-        <!-- top bar -->
-        <div class="mil-top-position mil-fixed">
-            <div class="mil-top-panel">
-                <!-- mil-top-panel-transparent -->
-                <div class="container">
-                    <a href="index.html" class="mil-logo" style="width: 140px"></a>
-                    <div class="mil-navigation">
-                        <nav>
-                            <ul>
-                                <li class="">
-                                    <a href="index.html">HOME</a>
-                                </li>
-                                <li class=""><a href="about.html">ABOUT</a></li>
-                                <li class="">
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                                <li class="mil-has-children"><a href="blog.html">ARTICLES</a></li>
-                                <li class=""><a href="contact.html">CONTACT</a></li>
-                            </ul>
-                        </nav>
-
+        <!-- Style CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" >
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+        <link
+            rel="shortcut icon"
+            href="assets/images/fav-karrab.png"
+            type="image/png"
+        >
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&amp;display=swap"
+            rel="stylesheet"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/line-awesome/css/line-awesome.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/bootstrap/css/bootstrap.min.css"
+        >
+        <link rel="stylesheet" href="assets/css/style.css" >
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="preload" class="preload"><div class="spin"></div></div>
+            <!-- BEGIN SITE HEADER -->
+            <header id="header" class="site-header is-transparent">
+                <div class="container-fluid">
+                    <div class="row flex-align-c inner">
+                        <div class="col-lg-3 col-6">
+                            <div class="header-left flex flex-align-c">
+                                <div class="canvas-menu">
+                                    <div class="icon">
+                                        <a href="#">
+                                            <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g   stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g transform="translate(-50.000000, -33.000000)" fill="#111111">
+                                                        <g id="off-menu" transform="translate(50.000000, 28.000000)">
+                                                            <g id="icon-menu" transform="translate(0.000000, 5.000000)">
+                                                                <rect id="Rectangle-1" x="0" y="0" width="30" height="3" rx="1.5"></rect>
+                                                                <rect id="Rectangle-2" x="0" y="11" width="20" height="3" rx="1.5"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="logo">
+                                    <a href="index.html">
+                                       <img src="/assets/images/karrab.png" alt="Karrab">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-0 text-center">
+                            <div class="header-center">
+                                <div class="main-menu">
+                                    <div class="menu-action">
+                                        <span class="item menu-back"><i class="las la-arrow-left"></i></span>
+                                        <span class="item menu-close"><i class="las la-times"></i></span>
+                                    </div>
+                                    <ul>
+                                        <li class="is-mega-menu">
+                                            <a href="/">Home</a>
+                                            
+                                        </li>
+                                        <li class="is-mega-menu">
+                                            <a href="/about.html">About</a>
+                                            
+                                        </li>
+                                        <li class="is-mega-menu">
+                                            <a href="/blog.html">Blog</a>
+                                           
+                                        </li>
+                                        <li class="is-mega-menu">
+                                            <a href="/contact.html">Contact</a>
+                                            
+                                        </li>
+                                        <li class="is-normal-menu">
+                                            <a href="/our-team.html">Team</a>
+                                           
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
                     </div>
-                    <!-- mobile menu button -->
-                    <div class="mil-menu-btn">
-                        <span></span>
-                    </div>
-                    <!-- mobile menu button end -->
                 </div>
+            </header>
+            <!-- END SITE HEADER -->
+
+            <!-- BEGIN SITE MAIN -->
+            <section class="section spdt">
+                <div class="block-blog">
+                    <div class="container">
+                        <div class="heading align-center">
+                            
+                            <h2 class="heading-title size-l" style="padding-top: 40px;">News & Events</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <article class="post post-grid">
+                                    <div class="entry-thumbnail">
+                                        <a href="/blog-detail.html" title="Cloud Infrastructure Trends 2023">
+                                            <img src="assets/images/post-01.jpg" alt="Cloud Infrastructure Trends 2023">
+                                        </a>
+                                    </div>
+                                    <div class="entry-content">
+                                        <div class="entry-category">
+                                            <a  title="Cloud Services">Cloud Services</a>
+                                            <a  title="Technology">Technology</a>
+                                        </div>
+                                        <div class="entry-title">
+                                            <h3><a href="/blog-detail.html" title="Cloud Infrastructure Trends 2023">Cloud Infrastructure Trends 2023</a></h3>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-sm-12">
+                                <article class="post post-grid">
+                                    <div class="entry-thumbnail">
+                                        <a href="/blog-detail 1.html" title="Optimizing Deployment Strategies">
+                                            <img src="assets/images/post-02.jpeg" alt="Optimizing Deployment Strategies">
+                                        </a>
+                                    </div>
+                                    <div class="entry-content">
+                                        <div class="entry-category">
+                                            <a  title="Deployment">Deployment</a>
+                                            <a  title="Strategies">Strategies</a>
+                                        </div>
+                                        <div class="entry-title">
+                                            <h3><a href="/blog-detail 1.html" title="Optimizing Deployment Strategies">Optimizing Deployment Strategies</a></h3>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-4 col-sm-12">
+                                <article class="post post-grid">
+                                    <div class="entry-thumbnail">
+                                        <a href="/blog-detail 2.html" title="Scaling Cloud Infrastructure">
+                                            <img src="assets/images/post-03.jpeg" alt="Scaling Cloud Infrastructure">
+                                        </a>
+                                    </div>
+                                    <div class="entry-content">
+                                        <div class="entry-category">
+                                            <a  title="Scaling">Scaling</a>
+                                            <a  title="Infrastructure">Infrastructure</a>
+                                        </div>
+                                        <div class="entry-title">
+                                            <h3><a href="/blog-detail 2.html" title="Scaling Cloud Infrastructure">Scaling Cloud Infrastructure</a></h3>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END SITE MAIN -->
+
+            <!-- BEGIN SITE FOOTER -->
+            <footer id="footer" class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="inner">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="footer-item footer-about">
+                                        <div class="logo">
+                                            <a href="index.html">
+                                                <img src="/assets/images/karrab.png" alt="Karrab">
+                                            </a>
+                                        </div>
+                                        <p>A cloud infrastructure design and deployment service for your business's success.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-item footer-menu">
+                                        <h6>Company</h6>
+                                        <ul>
+                                            <li><a href="/about.html" title="About us">About us</a></li>
+                                            <li><a href="/blog.html" title="Blog">Blog</a></li>
+                                            <li><a href="/our-team.html" title="Careers">Team</a></li>
+                                            <li><a href="/contact.html" title="Contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-item footer-menu">
+                                      
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-item footer-menu">
+                                        <h6>Social Media</h6>
+                                        <ul>
+                                            <li><a href="https://www.facebook.com" title="Facebook">Facebook</a></li>
+                                            <li><a href="https://www.twitter.com" title="Twitter">Twitter</a></li>
+                                            <li><a href="https://www.instagram.com" title="Instagram">Instagram</a></li>
+                                            <li><a href="https://www.linkedin.com" title="Linkedin">Linkedin</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="inner flex flex-content-sb flex-align-c">
+                            <div class="copyright">© 2023 Karrab. All rights reserved</div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- END SITE FOOTER -->
+
+
+            <!-- BEGIN BACK TO TOP -->
+            <a
+                href="#"
+                id="backtotop"
+                class="backtotop"
+            >
+                <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M5.52344 18.5234C5.3151 18.3151 5.3151 18.0938 5.52344 17.8594L13.7266 9.69531C13.9349 9.46094 14.1432 9.46094 14.3516 9.69531L22.5547 17.8594C22.763 18.0938 22.763 18.3151 22.5547 18.5234L21.7734 19.3047C21.5651 19.5391 21.3438 19.5391 21.1094 19.3047L14.0391 12.2344L6.96875 19.3047C6.73438 19.5391 6.51302 19.5391 6.30469 19.3047L5.52344 18.5234Z"
+                        fill="#ffffff"
+                    ></path>
+                </svg>
+            </a>
+            <!-- END BACK TO TOP -->
+
+            <!-- BEGIN SWITCHER -->
+            <div class="dl-switcher">
+                <div class="item">
+                    <span class="state dark" data-text="Dark">Dark</span>
+                    <span class="state light" data-text="Light">Light</span>
+                </div>
+                <div class="toddler">Light</div>
             </div>
+            <!-- END SWITCHER -->
         </div>
-        <!-- top bar end -->
 
-        <!-- banner -->
-<div class="mil-banner-sm mil-deep-bg">
-    <img src="img/deco/map.png" alt="background" class="mil-background-image">
-    <div class="mil-deco mil-deco-accent" style="top: 47%; right: 10%; transform: rotate(90deg)"></div>
-    <div class="mil-banner-content">
-        <div class="container mil-relative">
-            <ul class="mil-breadcrumbs mil-mb-30">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Analytics</a></li>
-            </ul>
-            <h2 class="mil-uppercase">Data Analytics Solutions</h2>
-        </div>
-    </div>
-</div>
-
-
-        <!-- banner end -->
-
-        <!-- blog -->
-<section class="mil-blog mil-p-120-0">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-lg-8 col-xl-8 mil-mb-120">
-                <a href="blog-details.html" class="mil-card mil-mb-60">
-                    <div class="mil-cover-frame">
-                        <img src="img/blog/1.jpg" alt="project">
-                    </div>
-                    <div class="mil-description">
-                        <div class="mil-card-title">
-                            <ul class="mil-dot-list mil-text-sm mil-mb-15">
-                                <li>Data Analytics Insights</li>
-                                <li>29 Oct. 2023</li>
-                            </ul>
-                            <h4>Unlocking the power of Data Analytics</h4>
-                        </div>
-                        <div class="mil-card-text">
-                            <p>Discover how our Data Analytics Solutions can help you optimize your data for business success and growth.</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="blog-details-2.html" class="mil-card mil-mb-60">
-                    <div class="mil-cover-frame">
-                        <img src="img/blog/2.jpg" alt="project">
-                    </div>
-                    <div class="mil-description">
-                        <div class="mil-card-title">
-                            <ul class="mil-dot-list mil-text-sm mil-mb-15">
-                                <li>Data Analytics Insights</li>
-                                <li>29 Oct. 2023</li>
-                            </ul>
-                            <h4>Data Driven Decision Making</h4>
-                        </div>
-                        <div class="mil-card-text">
-                            <p>Explore the best practices for data visualization and how it can enhance your data analytics efforts.</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="blog-details-3.html" class="mil-card mil-mb-60">
-                    <div class="mil-cover-frame">
-                        <img src="img/blog/3.jpg" alt="project">
-                    </div>
-                    <div class="mil-description">
-                        <div class="mil-card-title">
-                            <ul class="mil-dot-list mil-text-sm mil-mb-15">
-                                <li>Data Analytics Insights</li>
-                                <li>29 Oct. 2023</li>
-                            </ul>
-                            <h4>Data Analyst in action</h4>
-                        </div>
-                        <div class="mil-card-text">
-                            <p>Learn about data security best practices and how to protect your valuable data in the analytics era.</p>
-                        </div>
-                    </div>
-                </a>
-
-                <div class="mil-divider mil-mb-60"></div>
-
-                <div class="mil-pagination mil-hidden-arrows">
-                    <div class="mil-slider-nav">
-                        <div class="mil-slider-btn-prev mil-blog-prev"><i class="fas fa-arrow-left"></i><span class="mil-h6">Prev</span></div>
-                    </div>
-                    <ul class="mil-pagination-numbers">
-                        <li class="mil-active"><a href="#.">1</a></li>
-                        <li><a href="#.">2</a></li>
-                        <li><a href="#.">3</a></li>
-                    </ul>
-                    <div class="mil-slider-nav">
-                        <div class="mil-slider-btn-next mil-blog-next"><span class="mil-h6">Next</span><i class="fas fa-arrow-right"></i></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3 mil-mb-120">
-                <div class="mil-mb-60">
-                    <h5 class="mil-list-title mil-mb-30">About Our Services</h5>
-                    <p class="mil-mb-30">We specialize in providing data analytics solutions to help businesses make data-driven decisions and achieve success.</p>
-                    <a href="team-single.html" class="mil-post-sm mil-mb-15">
-                        <div class="mil-cover-frame"><img src="img/faces/1.jpg" alt="cover"></div>
-                        <div class="mil-description">
-                            <h4 class="mil-font-3 mil-accent">John Doe</h4>
-                            <p class="mil-text-sm">CEO & Co-Founder</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="mil-divider mil-mb-60"></div>
-                <form class="mil-sidebar-input-frame mil-mb-60">
-                    <input type="text" class="mil-sidebar-input" placeholder="Search here...">
-                    <button type="submit"><i class="fas fa-search"></i></button>
-                </form>
-                <div class="mil-divider mil-mb-60"></div>
-                <div class="mil-mb-60">
-                    <h5 class="mil-list-title mil-mb-30">Recent Posts</h5>
-                    <a href="publication.html" class="mil-post-sm mil-mb-15">
-                        <div class="mil-cover-frame"><img src="img/blog/6.jpg" alt="cover"></div>
-                        <div class="mil-description">
-                            <h6>The Future of Data Analytics.</h6>
-                        </div>
-                    </a>
-                    <a href="publication.html" class="mil-post-sm mil-mb-15">
-                        <div class="mil-cover-frame"><img src="img/blog/5.jpg" alt="cover"></div>
-                        <div class="mil-description">
-                            <h6>Data Analytics for Business Growth.</h6>
-                        </div>
-                    </a>
-                    <a href="publication.html" class="mil-post-sm mil-mb-15">
-                        <div class="mil-cover-frame"><img src="img/blog/4.jpg" alt="cover"></div>
-                        <div class="mil-description">
-                            <h6>Maximizing Data Insights.</h6>
-                        </div>
-                    </a>
-                    <a href="publication.html" class="mil-post-sm mil-mb-15">
-                        <div class="mil-cover-frame"><img src="img/blog/3.jpg" alt="cover"></div>
-                        <div class="mil-description">
-                            <h6>Data Analytics Best Practices.</h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="mil-divider mil-mb-60"></div>
-                <div class="mil-mb-60">
-                    <h5 class="mil-list-title mil-mb-30">Categories</h5>
-                    <ul class="mil-hover-link-list">
-                        <li>
-                            <a href="#.">Data Analytics Insights</a>
-                        </li>
-                        <li>
-                            <a href="#.">Data Visualization</a>
-                        </li>
-                        <li>
-                            <a href="#.">Data Security</a>
-                        </li>
-                        <li>
-                            <a href="#.">Best Practices</a>
-                        </li>
-                        <li>
-                            <a href="#.">News</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="mil-divider mil-mb-60"></div>
-                <div class="mil-mb-60">
-                    <h5 class="mil-list-title mil-mb-30">Tags</h5>
-                    <ul class="mil-tags">
-                        <li><a href="#.">Data</a></li>
-                        <li><a href="#.">Analytics</a></li>
-                        <li><a href="#.">Business</a></li>
-                        <li><a href="#.">Insights</a></li>
-                        <li><a href="#.">Security</a></li>
-                    </ul>
-                </div>
-                <div class="mil-divider mil-mb-60"></div>
-                <div class="mil-mb-60">
-                    <h5 class="mil-list-title mil-mb-30">Newsletter</h5>
-                    <form class="mil-sidebar-input-frame">
-                        <input type="text" class="mil-sidebar-input" placeholder="Your email address">
-                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
-                    </form>
-                </div>
-                <div class="mil-divider mil-mb-60"></div>
-                <h5 class="mil-list-title mil-mb-30">Contact Us</h5>
-                <p class="mil-mb-30">Have questions or need assistance? Contact our team for support.</p>
-                <a href="contact.html" class="mil-link"><span>Contact Us</span><i class="fas fa-arrow-right"></i></a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-        <!-- blog end -->
-
-        <!-- footer -->
-<footer class="mil-dark-bg">
-    <img src="img/deco/map.png" alt="background" class="mil-footer-bg">
-    <div class="container">
-        <div class="mil-footer-content">
-            <div class="row align-items-center mil-p-120-60">
-                <div class="col-xl-6 mil-mb-60">
-                    <h3 class="mil-light mil-mb-15">Unlock <span class="mil-accent">Data Insights</span> with Us</h3>
-                    <p class="mil-light-soft">Experience cutting-edge data analytics services. Join us on this journey to unlock valuable insights from your data.</p>
-                </div>
-                <div class="col-xl-6 mil-mb-60">
-                    <form class="mil-subscribe-form">
-                        <input type="text" placeholder="Your email address">
-                        <button type="submit" class="mil-button mil-accent-bg">Subscribe Now</button>
-                    </form>
-                </div>
-            </div>
-            <div class="mil-divider mil-light"></div>
-            <div class="row justify-content-between mil-p-120-60">
-                <div class="col-md-3 col-lg-3 col-xl-3 mil-mb-30">
-                    <img src="img/dataanalyticsco.jpg" alt="" class="mil-logo mil-mb-60" style="width: 140px">
-                    <p class="mil-light mil-light-soft" style="margin-bottom: 45px">52 mileway Drive,<br>Suite 1600, New York, NY 10001.</p>
-                    <ul class="mil-simple-list mil-mb-15">
-                        <li class="mil-light"><span class="mil-accent">+1</span>&nbsp;<span class="mil-light-soft">800 123 4567</span></li>
-                        <li><span class="mil-accent">support</span><span class="mil-light mil-light-soft">@hancuu.info</span></li>
-                    </ul>
-                </div>
-                <div class="col-md-8 col-lg-7 col-xl-7">
-                    <div class="row justify-content-end">
-                        <div class="col-md-4 col-lg-4 mil-mb-60">
-                            <h4 class="mil-list-title mil-light mil-mb-60">Connect With Us</h4>
-                            <ul class="mil-hover-link-list mil-light">
-                                <li>
-                                    <a href="#.">Facebook</a>
-                                </li>
-                                <li>
-                                    <a href="#.">LinkedIn</a>
-                                </li>
-                                <li>
-                                    <a href="#.">Twitter</a>
-                                </li>
-                                <li>
-                                    <a href="#.">YouTube</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-4 mil-mb-60">
-                            <h4 class="mil-list-title mil-light mil-mb-60">Customer Support</h4>
-                            <ul class="mil-hover-link-list mil-light">
-                                <li>
-                                    <a href="faq.html">FAQs</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-4 mil-mb-60">
-                            <h4 class="mil-list-title mil-light mil-mb-60">Quick Links</h4>
-                            <ul class="mil-hover-link-list mil-light">
-                                <li>
-                                    <a href="about.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#.">Terms & Conditions</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mil-footer-bottom">
-        <div class="container">
-            <p class="mil-text-sm mil-light">© hancuu.info 2023.</p>
-            <p class="mil-text-sm mil-light">All Rights Reserved.</p>
-        </div>
-    </div>
-</footer>
-        <!-- footer end -->
-
-    </div>
-    <!-- wrapper end -->
-
-    <!-- jQuery js -->
-    <script src="js/plugins/jquery.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
-    <!-- itsulu js -->
-    <script src="js/main.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-11"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-125314689-11');
-	</script>
-
-	<!-- bslthemes.com buttons html begin -->
-    <div class="bsl-popup" data-theme="itsulu" data-category="html">
-        <div class="bsl-popup__buttons"></div>
-        <div class="bsl-popup__content bsl-popup__content-related">
-        <div class="bsl-popup__menu"></div>
-        <div class="bsl-popup__tabs">
-            <div class="bsl-popup__tab bsl-popup__tab-demo"></div>
-            <div class="bsl-popup__tab bsl-popup__tab-all"></div>
-            <div class="bsl-popup__tab bsl-popup__tab-related"></div>
-            <div class="bsl-popup__tab bsl-popup__tab-version"></div>
-        </div>
-        </div>
-        <div class="bsl-popup__content bsl-popup__content-help"></div>
-    </div>
-    <!-- bslthemes.com buttons html end -->
-
-	<!-- bslthemes.com buttons assets begin -->
-	<link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
-    <script src="../../bslthms-advanced-btns/assets/script.js"></script>
-    <!-- bslthemes.com buttons assets end -->
-
-</body>
-
+        <!-- jQuery -->
+        <script src="assets/js/jquery-1.12.4.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
