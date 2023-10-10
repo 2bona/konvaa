@@ -1,437 +1,877 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" >
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>Liverro || Managed Migration</title>
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-        <!-- Style CSS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" >
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-        <link
-            rel="shortcut icon"
-            href="assets//favicon.png"
-            type="image/png"
-        >
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&amp;display=swap"
-            rel="stylesheet"
-        >
-        <link
-            rel="stylesheet"
-            href="assets/libs/line-awesome/css/line-awesome.min.css"
-        >
-        <link
-            rel="stylesheet"
-            href="assets/libs/bootstrap/css/bootstrap.min.css"
-        >
-        <link
-            rel="stylesheet"
-            href="assets/libs/swiper/swiper-bundle.min.css"
-        >
-        <link rel="stylesheet" href="assets/css/style.css" >
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="preload" class="preload"><div class="spin"></div></div>
-            <!-- BEGIN SITE HEADER -->
-            <header id="header" class="site-header">
-                <div class="container-fluid">
-                    <div class="row flex-align-c inner">
-                        <div class="col-lg-3 col-6">
-                            <div class="header-left flex flex-align-c">
-                                <div class="canvas-menu">
-                                    <div class="icon">
-                                        <a href="#">
-                                            <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g   stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <g transform="translate(-50.000000, -33.000000)" fill="#111111">
-                                                        <g id="off-menu" transform="translate(50.000000, 28.000000)">
-                                                            <g id="icon-menu" transform="translate(0.000000, 5.000000)">
-                                                                <rect id="Rectangle-1" x="0" y="0" width="30" height="3" rx="1.5"></rect>
-                                                                <rect id="Rectangle-2" x="0" y="11" width="20" height="3" rx="1.5"></rect>
-                                                            </g>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="logo">
-                                    <a href="index.html">
-                                         <img src="assets/liverro.png" alt="logo" style="width: 200px;">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Omette - Transforming Your Data</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets//favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <link rel="stylesheet" href="assets/css/flaticon.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/meanmenu.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+   <!-- preloader -->
+   <div id="preloader">
+      <div class="preloader">
+         <span></span>
+         <span></span>
+      </div>
+   </div>
+   <!-- preloader end  -->
+
+   <!-- back-to-top-start  -->
+   <button class="scroll-top scroll-to-target" data-target="html">
+      <i class="far fa-angle-double-up"></i>
+   </button>
+   <!-- back-to-top-end  -->
+
+   <!-- tp-offcanvus-area-start -->
+    <div class="tpoffcanvas-area">
+         <div class="tpoffcanvas">
+            <div class="tpoffcanvas__close-btn">
+               <button class="close-btn"><i class="fal fa-times"></i></button>
+            </div>
+            <div class="tpoffcanvas__logo text-center">
+               <a href="index.html">
+                  <img src="assets/omette.png" alt="">
+               </a>
+            </div>
+            <div class="mobile-menu"></div>
+            <div class="tpoffcanvas__instagram text-center">
+               <div class="tpoffcanvas__instagram-title">
+                  <h4>instagram</h4>
+               </div>
+               <a href="#"><img src="assets/img/project/project-inner-4.jpg" alt=""></a>
+               <a href="#"><img src="assets/img/project/project-inner-5.jpg" alt=""></a>
+               <a href="#"><img src="assets/img/project/project-inner-6.jpg" alt=""></a>
+               <a href="#"><img src="assets/img/project/project-inner-7.jpg.png" alt=""></a>
+            </div>
+            <div class="tpoffcanvas__info text-center">
+               <h4 class="offcanva-title">we are here</h4>
+               <a href="https://www.google.com/maps/@23.506657,90.3443647,7z" target="_blank">
+                  15 Mainview St, New York, <br>
+                  NY 10002, USA
+               </a>
+            </div>
+         </div>
+      </div>
+   <div class="body-overlay"></div>
+   <!-- tp-offcanvus-area-end -->
+
+
+   <header>
+      <!-- tp-header-area-start -->
+      <div id="header-sticky" class="header-bottom__area header-mob-space header-bottom__area-2 header-bottom__transparent z-index-5">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
+                     <div class="header-bottom__logo">
+                        <a href="index.html"><img src="assets/omette.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
+                     <div class="header-bottom__main-menu">
+                        <nav id="mobile-menu">
+                           <ul>
+                              <li>
+                                 <a href="index.html">HOME</a>
+                              </li>
+                              <li>
+                                 <a href="about.html">ABOUT</a>
+                              </li>
+                              <li>
+                                 <a href="product.html">WHAT WE OFFER</a>
+                              </li>
+                              <li>
+                                 <a href="blog.html">ARTICLES</a>
+                              </li>
+                              <li>
+                                 <a href="contact.html">CONTACT</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      <!-- tp-header-area-end -->
+   </header>
+
+
+   <div id="smooth-wrapper">
+      <div id="smooth-content">
+
+         <main>
+
+         <!-- breadcrumb-area-start -->
+         <div class="breadcrumb__area breadcrumb-ptb-4 p-relative blue-bg-2">
+            <div class="breadcrumb__shape-1">
+               <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+            </div>
+            <div class="breadcrumb__shape-2">
+               <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+            </div>
+            <div class="container">
+               <div class="row align-items-end">
+                  <div class="col-xl-9 col-lg-9 col-md-9">
+                     <div class="blog-details-banner z-index-2">
+                        <div class="blog-details-title-box">
+                           <span>Resources</span>
+                           <h3 class="blog-details-banner-title">Unlocking Business Insights with Data</h3>
+                        </div>
+                        <div class="tp-blog-author-info-box d-flex align-items-center">
+                           <div class="tp-blog-avata">
+                              <img src="assets/img/blog/blog-avata-1.png" alt="">
+                           </div>
+                           <div class="tp-blog-author-info">
+                                 <h5>Hilary Ouse</h5>
+                                 <span>Founder & CEO Dulalix</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- breadcrumb-area-end --> 
+
+         <!-- breadcrumb-banner-start --> 
+         <div class="blog-details-img-area mb-80">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-12">
+                     <div class="blog-details-big-img z-index-2">
+                        <img src="assets/img/blog/blog-details-2.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- breadcrumb-banner-end --> 
+
+
+
+         <!-- postbox area start -->
+         <div class="postbox__area pb-100">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-8 col-xl-8 col-lg-8">
+                     <div class="postbox__details-wrapper pr-20">
+                        <article>
+                           <div class="postbox__details-title-box pb-30">
+                              <h4 class="postbox__details-title">The History Of Data</h4>
+                              <p>Data involves the use of advanced tools and techniques to process and analyze data, uncovering hidden patterns, trends, and correlations. This process transforms raw data into actionable insights, providing businesses with a clearer understanding of their operations and customer behaviors.</p>
+                               <p>As technology continues to advance, the role of data in business will only become more significant. Artificial intelligence and machine learning are poised to revolutionize data analytics by automating processes and providing even deeper insights.</p>
+                           </div>
+                           <div class="postbox__details-checkmark">
+                              <ul>
+                                 <li><i class="fal fa-check"></i>Say goodbye to bank fees.</li>
+                                 <li><i class="fal fa-check"></i>Leverage agile frameworks to provide</li>
+                                 <li><i class="fal fa-check"></i>Capitalize on low hanging fruit</li>
+                                 <li><i class="fal fa-check"></i>Deposit funds easily, securely.</li>
+                              </ul>
+                           </div>
+                           <div class="postbox__details-title-box pb-30">
+                              <h4 class="postbox__details-title">How to Become a Data Analyst</h4>
+                              <p>Data  allows businesses to adapt quickly to changing market conditions and consumer behaviors, ensuring they stay relevant and resilient.</p>
+                           </div>
+                           <div class="postbox__details-img-box d-flex">
+                              <div class="mr-20 text-center">
+                                 <img class="mb-20" src="assets/img/blog/blog-details-2.jpg" alt="">
+                                 <h4 class="postbox__details-img-caption"><span>Images by</span>@omette</h4>
+                              </div>
+                              <div class="text-center">
+                                 <img class="mb-20" src="assets/img/blog/blog-details-3.jpg" alt="">
+                                 <h5 class="postbox__details-img-caption"><span>Images by</span>@omette</h5>
+                              </div>
+                           </div>
+                           <div class="postbox__details-title-box pb-15">
+                              <p>Data-driven insights often lead to innovation. Businesses can identify new opportunities and areas for growth that might have otherwise gone unnoticed.</p>
+                           </div>
+                           <div class="postbox__details-qoute mb-30">
+                              <blockquote class="d-flex align-items-start">
+                                 <div class="postbox__details-qoute-icon">
+                                    <svg width="37" height="27" viewBox="0 0 37 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M35.046 0.402002C32.4553 2.01 30.222 3.97534 28.346 6.298C26.5593 8.53133 25.3533 10.8093 24.728 13.132C25.3533 12.596 26.0233 12.194 26.738 11.926C27.542 11.5687 28.3013 11.39 29.016 11.39C31.16 11.39 32.9467 12.1493 34.376 13.668C35.8053 15.0973 36.52 16.884 36.52 19.028C36.52 21.172 35.7607 22.9587 34.242 24.388C32.8127 25.8173 31.026 26.532 28.882 26.532C26.6487 26.532 24.8173 25.7727 23.388 24.254C21.9587 22.7353 21.244 20.77 21.244 18.358C21.244 15.142 22.1373 11.7027 23.924 8.04C25.8 4.288 27.8993 1.608 30.222 0H35.046V0.402002ZM13.802 0.402002C11.2113 2.01 8.978 3.97534 7.102 6.298C5.31533 8.53133 4.10933 10.8093 3.484 13.132C4.10933 12.596 4.77933 12.194 5.494 11.926C6.298 11.5687 7.05733 11.39 7.772 11.39C9.916 11.39 11.7027 12.1493 13.132 13.668C14.5613 15.0973 15.276 16.884 15.276 19.028C15.276 21.172 14.5167 22.9587 12.998 24.388C11.5687 25.8173 9.782 26.532 7.638 26.532C5.40467 26.532 3.57333 25.7727 2.144 24.254C0.714667 22.7353 0 20.77 0 18.358C0 15.142 0.893333 11.7027 2.68 8.04C4.556 4.288 6.65533 1.608 8.978 0H13.802V0.402002Z" fill="#CDCECF"/>
+                                    </svg>
+                                 </div>
+                                 <div class="postbox__details-qoute-text">
+                                    <p>In conclusion, unlocking business insights with data  is no longer a luxury but a necessity for modern organizations. It empowers businesses to make informed decisions, enhance the customer experience, gain a competitive advantage, and position themselves for future success. As data  capabilities continue to evolve, companies that harness this power effectively will be the ones leading the way in their respective industries.</p>
+                                    <span>Socrates</span>
+                                 </div>
+                              </blockquote>
+                           </div>
+                           <div class="postbox__details-title-box pb-15">
+                              <p>Predictive  uses historical data to forecast future customer behavior. This enables companies to anticipate customer needs and tailor their strategies accordingly.</p>
+                              <p>Data  can help organizations make sense of customer feedback, whether it's from surveys, reviews, or social media. This feedback can be used to improve products and services continually.</p>
+                           </div>
+                           <div class="postbox__details tagcloud mb-50">
+                              <span>Tags:</span>
+                              <a href="#">Data</a>
+                              <a href="#">Development</a>
+                              <a href="#">Technology</a>
+                              <a href="#">Analytics</a>
+                           </div>
+                           <div class="postbox__navigation-more mb-70 d-flex justify-content-between">
+                              <div class="postbox__navigation-left d-flex align-items-center">
+                                 <div class="postbox__navigation-img">
+                                    <a href="#"><img src="assets/img/blog/navigation-1.png" alt=""></a>
+                                 </div>
+                                 <div class="postbox__navigation-content">
+                                    <a href="#">
+                                       <span>
+                                          <i class="far fa-arrow-left"></i>
+                                          Previous post
+                                       </span>
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-                       <div class="col-lg-6 col-0 text-center">
-                            <div class="header-center">
-                                <div class="main-menu">
-                                    <div class="menu-action">
-                                        <span class="item menu-back"><i class="las la-arrow-left"></i></span>
-                                        <span class="item menu-close"><i class="las la-times"></i></span>
+                                    <h5><a href="#">Leveraging Feedback...</a></h5>
+                                 </div>
+                              </div>
+                              <div class="postbox__navigation-right d-flex align-items-center">
+                                 <div class="postbox__navigation-content">
+                                    <a href="#">
+                                       <span>
+                                          Next post
+                                          <i class="far fa-arrow-right"></i> 
+                                       </span>
+                                    </a>
+                                    <h5><a href="#">Typing Tutorials For...</a></h5>
+                                 </div>
+                                 <div class="postbox__navigation-img">
+                                    <a href="#"><img src="assets/img/blog/navigation-2.png" alt=""></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="postbox__details-author-info-box mb-100 d-flex align-items-start">
+                              <div class="postbox__details-author-avata">
+                                 <img src="assets/img/blog/blog-details-avata-1.jpg" alt="">
+                              </div>
+                              <div class="postbox__details-author-content">
+                                 <h5 class="postbox__details-author-title">Dianne Ameter</h5>
+                                 <p>Data is often referred to as the "new oil" in the digital age, and for a good reason. Businesses generate an enormous amount of data every day, from customer interactions and sales transactions to website visits and social media engagement. However, this data is only valuable if it can be harnessed effectively.</p>
+                              </div>
+                           </div>
+                           <div class="postbox__comment mb-65">
+                              <h3 class="postbox__comment-title">3 Comments</h3>
+                              <ul>
+                                 <li>
+                                    <div class="postbox__comment-box d-flex">
+                                       <div class="postbox__comment-info ">
+                                          <div class="postbox__comment-avater mr-20">
+                                             <img src="assets/img/blog/blog-avata-2.png" alt="">
+                                          </div>  
+                                       </div>
+                                       <div class="postbox__comment-text">
+                                          <div class="postbox__comment-name d-flex">
+                                             <h5>Justin Case</h5>
+                                             <span class="post-meta"> April 8, 2022 at 7:38 am</span>
+                                          </div>
+                                          <p>Patient Comments are a collection of comments submitted by viewers in <br> response to a question posed by a MedicineNet doctor.</p>
+                                          <div class="postbox__comment-reply">
+                                             <a href="#">
+                                                <svg width="12" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M5 1L1 5L5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                   <path d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                                </svg> 
+                                                Reply
+                                             </a>
+                                          </div>
+                                       </div>
                                     </div>
-                                    <ul>
-                                        <li class="is-mega-menu">
-                                            <a href="index.html">HOME</a>
-                                        </li>
-                                        <li class="is-mega-menu">
-                                            <a href="about.html">ABOUT</a>
-                                        </li>
-                                        <li class="is-mega-menu">
-                                            <a href="team.html">OUR TEAM</a>
-                                        </li>
-                                        <li class="is-mega-menu">
-                                            <a href="blog.html">BLOG</a>
-                                        </li>
-                                        <li class="is-mega-menu">
-                                            <a href="contact.html">CONTACT</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                 </li>
+                                 <li class="children">
+                                    <div class="postbox__comment-box  d-flex">
+                                       <div class="postbox__comment-info">
+                                          <div class="postbox__comment-avater mr-20">
+                                             <img src="assets/img/blog/blog-avata-1.png" alt="">
+                                          </div> 
+                                       </div>
+                                       <div class="postbox__comment-text">
+                                          <div class="postbox__comment-name d-flex">
+                                             <h5>Farhan Firoz</h5>
+                                             <span class="post-meta"> July 14, 2022</span>
+                                          </div>
+                                          <p>Include anecdotal examples of your experience, or things you took notice of that you feel others would find useful.</p>
+                                          <div class="postbox__comment-reply">
+                                             <a href="#">
+                                                <svg width="12" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M5 1L1 5L5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                   <path d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                                </svg> 
+                                                Reply  
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="postbox__comment-box d-flex">
+                                       <div class="postbox__comment-info ">
+                                          <div class="postbox__comment-avater mr-20">
+                                             <img src="assets/img/blog/blog-list-avata-1.jpg" alt="">
+                                          </div>  
+                                       </div>
+                                       <div class="postbox__comment-text">
+                                          <div class="postbox__comment-name d-flex">
+                                             <h5>Justin Case</h5>
+                                             <span class="post-meta"> April 8, 2022 at 7:38 am</span>
+                                          </div>
+                                          <p>Patient Comments are a collection of comments submitted by viewers in <br> response to a question posed by a MedicineNet doctor.</p>
+                                          <div class="postbox__comment-reply">
+                                             <a href="#">
+                                                <svg width="12" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M5 1L1 5L5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                   <path d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                                </svg> 
+                                                Reply
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="postbox__comment-form">
+                              <h3 class="postbox__comment-form-title">Leave A Comment</h3>
+                              <form action="#" class="box">
+                                 <div class="row gx-20">
+                                    <div class="col-xxl-4 col-xl-6 col-lg-4">
+                                       <div class="postbox__comment-input mb-35">
+                                          <input type="text" class="inputText" required>
+                                          <span class="floating-label">Your  Name</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-xl-6 col-lg-4">
+                                       <div class="postbox__comment-input mb-35">
+                                          <input type="text" class="inputText" required>
+                                          <span class="floating-label">Your  Email</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-xxl-4 col-xl-6 col-lg-4">
+                                       <div class="postbox__comment-input mb-35">
+                                          <input type="text" class="inputText" required>
+                                          <span class="floating-label">Your  Website</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-xxl-12">
+                                       <div class="postbox__comment-input mb-20">
+                                          <textarea class="textareaText" required></textarea>
+                                          <span class="floating-label-2">Your  Comment</span>
+                                       </div>
+                                    </div>
+                                    <div class="col-xxl-12">
+                                       <div class="postbox__comment-agree">
+                                          <div class="form-check">
+                                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                             <label class="form-check-label" for="flexCheckDefault">
+                                                I agree that my submitted data is being collected and stored.
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-xxl-12">
+                                       <div class="postbox__comment-btn">
+                                          <button type="submit" class="tp-btn-inner">Post comment</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </article>
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4">
+                     <div class="sidebar__wrapper">
+                        <div class="sidebar__widget mb-40">
+                           <div class="sidebar__widge-title-box">
+                              <h3 class="sidebar__widget-title">Search</h3>
+                           </div>
+                           <div class="sidebar__widget-content">
+                              <div class="sidebar__search">
+                                 <form action="#">
+                                    <div class="sidebar__search-input-2">
+                                       <input type="text" placeholder="Search your keyword...">
+                                       <button type="submit">
+                                          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M8.01371 15.2219C11.9525 15.2219 15.1456 12.0382 15.1456 8.11096C15.1456 4.18368 11.9525 1 8.01371 1C4.07488 1 0.881836 4.18368 0.881836 8.11096C0.881836 12.0382 4.07488 15.2219 8.01371 15.2219Z" stroke="#5F6168" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                             <path d="M16.9287 16.9996L13.0508 13.1331" stroke="#5F6168" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </header>
-            <!-- END SITE HEADER -->
+                        <div class="sidebar__widget mb-40">
+                           <div class="sidebar__widge-title-box">
+                              <h3 class="sidebar__widget-title">Recent Post</h3>
+                           </div>
+                           <div class="sidebar__widget-content">
+                              <div class="sidebar__post rc__post">
+                                 <div class="rc__post mb-20 d-flex">
+                                    <div class="rc__post-thumb mr-20">
+                                       <a href="blog-details.html"><img src="assets/img/blog/blog-list-avata-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="rc__post-content">
+                                       <h3 class="rc__post-title">
+                                          <a href="blog-details.html">5 Ways Data Analytics Transforms Business</a>
+                                       </h3>
+                                       <div class="rc__meta">
+                                          <span>4 March. 2022</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="rc__post mb-20 d-flex">
+                                    <div class="rc__post-thumb mr-20">
+                                       <a href="blog-details-2.html"><img src="assets/img/blog/blog-list-avata-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="rc__post-content">
+                                       <h3 class="rc__post-title">
+                                          <a href="blog-details-2.html">Unlocking Business Insights with Data Analytics</a>
+                                       </h3>
+                                       <div class="rc__meta">
+                                          <span>4 March. 2022</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="rc__post d-flex">
+                                    <div class="rc__post-thumb mr-20">
+                                       <a href="blog-details-3.html"><img src="assets/img/blog/blog-list-avata-3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="rc__post-content">
+                                       <h3 class="rc__post-title">
+                                          <a href="blog-details-3.html">5 Data Analytics Companies Leading the Way</a>
+                                       </h3>
+                                       <div class="rc__meta">
+                                          <span>4 March. 2022</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="sidebar__widget mb-40">
+                           <div class="sidebar__widge-title-box">
+                              <h3 class="sidebar__widget-title">Categories</h3>
+                           </div>
+                           <div class="sidebar__widget-content">
+                              <ul>
+                                 <li><a href="blog.html"><span><i class="fal fa-angle-right"></i>Technology</span><span>01</span></a></li>
+                                 <li><a href="blog.html"><span><i class="fal fa-angle-right"></i>omette</span><span>02</span></a></li>
+                                 <li><a href="blog.html"><span><i class="fal fa-angle-right"></i>Development</span><span>03</span></a></li>
+                                 <li><a href="blog.html"><span><i class="fal fa-angle-right"></i>Tips & Tricks</span><span>04</span></a></li>
+                                 <li><a href="blog.html"><span><i class="fal fa-angle-right"></i>News</span><span>05</span></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="sidebar__widget mb-40">
+                           <div class="sidebar__widge-title-box">
+                              <h3 class="sidebar__widget-title">Tag Cloud</h3>
+                           </div>
+                           <div class="sidebar__widget-content">
+                              <div class="tagcloud">
+                                 <a href="#">Data</a>
+                                 <a href="#">Development</a>
+                                 <a href="#">Technology</a>
+                                 <a href="#">Analytics</a>
+                                 <a href="#">Cloud</a>
+                                 <a href="#">Statistics</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- postbox area end -->
 
-            <!-- BEGIN SITE MAIN -->
-            <main id="main" class="site-main">
-                <div class="site-content">
-                    <div class="container">
+
+         <!--Portfolio Start-->
+         <div class="blog-grid-inner grey-bg pt-100 pb-50">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="popular-blog-title mb-40 text-center">
+                        <h4>Related Posts</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="blog-details-slider-wrapper">
+                        <div class="swiper-container blog-slider-active pb-50">
+                           <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                                 <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                       <a href="#"><img src="assets/img/blog/blog-grid-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="tp-blog-content">
+                                       <div class="tp-blog-meta d-flex align-items-center">
+                                          <div class="tp-blog-category category-color-1">
+                                             <span>Data Analytics</span>
+                                          </div>
+                                          <div class="tp-blog-date">
+                                             <span>28 April, 2023</span>
+                                          </div>
+                                       </div>
+                                       <div class="tp-blog-title-box">
+                                          <a class="tp-blog-title-sm" href="#">2023 Professional Year <br> In Review</a>
+                                       </div>
+                                       <div class="tp-blog-author-info-box d-flex align-items-center">
+                                          <div class="tp-blog-avata">
+                                             <img src="assets/img/blog/blog-avata-1.png" alt="">
+                                          </div>
+                                          <div class="tp-blog-author-info">
+                                             <h5>Hilary Ouse</h5>
+                                             <span>Founder & CEO Dulalix</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </div> 
+                           <div class="swiper-slide">
+                                 <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                       <a href="#"><img src="assets/img/blog/blog-grid-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="tp-blog-content">
+                                       <div class="tp-blog-meta d-flex align-items-center">
+                                          <div class="tp-blog-category category-color-1">
+                                             <span>Data Analytics</span>
+                                          </div>
+                                          <div class="tp-blog-date">
+                                             <span>28 April, 2023</span>
+                                          </div>
+                                       </div>
+                                       <div class="tp-blog-title-box">
+                                          <a class="tp-blog-title-sm" href="#">Leveraging Feedback on <br> Insights best.</a>
+                                       </div>
+                                       <div class="tp-blog-author-info-box d-flex align-items-center">
+                                          <div class="tp-blog-avata">
+                                             <img src="assets/img/blog/blog-avata-2.png" alt="">
+                                          </div>
+                                          <div class="tp-blog-author-info">
+                                             <h5>Hilary Ouse</h5>
+                                             <span>Founder & CEO Dulalix</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </div> 
+                           <div class="swiper-slide">
+                                 <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                       <a href="#"><img src="assets/img/blog/blog-grid-3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="tp-blog-content">
+                                       <div class="tp-blog-meta d-flex align-items-center">
+                                          <div class="tp-blog-category category-color-1">
+                                             <span>Data Analytics</span>
+                                          </div>
+                                          <div class="tp-blog-date">
+                                             <span>28 April, 2023</span>
+                                          </div>
+                                       </div>
+                                       <div class="tp-blog-title-box">
+                                          <a class="tp-blog-title-sm" href="#">Project Management at <br> Your fingertips.</a>
+                                       </div>
+                                       <div class="tp-blog-author-info-box d-flex align-items-center">
+                                          <div class="tp-blog-avata">
+                                             <img src="assets/img/blog/blog-avata-3.png" alt="">
+                                          </div>
+                                          <div class="tp-blog-author-info">
+                                             <h5>Hilary Ouse</h5>
+                                             <span>Founder & CEO Dulalix</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </div> 
+                           <div class="swiper-slide">
+                                 <div class="tp-blog-item">
+                                    <div class="tp-blog-thumb fix">
+                                       <a href="#"><img src="assets/img/blog/blog-grid-2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="tp-blog-content">
+                                       <div class="tp-blog-meta d-flex align-items-center">
+                                          <div class="tp-blog-category category-color-1">
+                                             <span>Crm Software</span>
+                                          </div>
+                                          <div class="tp-blog-date">
+                                             <span>28 April, 2023</span>
+                                          </div>
+                                       </div>
+                                       <div class="tp-blog-title-box">
+                                          <a class="tp-blog-title-sm" href="#">Leveraging Feedback on <br> Insights best.</a>
+                                       </div>
+                                       <div class="tp-blog-author-info-box d-flex align-items-center">
+                                          <div class="tp-blog-avata">
+                                             <img src="assets/img/blog/blog-avata-1.png" alt="">
+                                          </div>
+                                          <div class="tp-blog-author-info">
+                                             <h5>Hilary Ouse</h5>
+                                             <span>Founder & CEO Dulalix</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </div> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--Portfolio End-->
+
+
+         </main>
+
+      
+  <footer>   
+               <!-- tp-footer-feature-slide-start -->
+               <div class="tp-footer-slide pb-80">
+   <div class="container-fluid g-0">
+      <div class="row g-0 justify-content-center">
+         <div class="footer-slide-active">
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Modernization Solutions</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Data Transformation</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>All-in-one Data Platform</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Data Solutions for Teams</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Advanced Analytics</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Data Migration Services</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Dedicated Support</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Streamlined Onboarding</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Data Solutions for Teams</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Modernization Solutions</span>
+               </div>
+            </div>
+            <div class="footer-slide-wrapper">
+               <div class="footer-slide-item">
+                  <i class="fal fa-check"></i>
+                  <span>Data Migration Services</span>
+               </div>
+            </div>
+         </div> 
+      </div>
+   </div>
+</div>
+
+               <!-- tp-footer-feature-slide-end -->
+
+               <!-- tp-footer-area-start -->
+               <div class="tp-footer__pl-pr">
+                  <div class="tp-footer__area tp-footer__tp-border-bottom">
+                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-10 col-12 col-auto">
-    <div class="blog-single">
-    <div class="post-head">
-        <div class="post-category">
-            <a href="#" title="Managed Migration Services">Managed Migration Services</a>
-            <a href="#" title="Migration Guides">Migration Guides</a>
-        </div>
-        <div class="post-title">
-            <h1>Unlocking the Benefits of Managed Cloud Migration</h1>
-        </div>
-        <div class="post-author flex flex-align-c">
-            <div class="avatar"><img src="assets/images/post-07.jpeg" alt="Managed Migration Expert"></div>
-            <div class="info">
-                <span class="name">Post by <a href="#" title="Managed Migration Expert">Managed Migration Expert</a></span>
-                <span class="date">Published: Sep 2, 2022</span>
-            </div>
-        </div>
-    </div>
-    <div class="post-thumbnail">
-        <img src="assets/images/post-02.jpeg" alt="Costs and Strategies for Managed Cloud Migration">
-    </div>
-    <article class="post">
-        <p>Managed cloud migration is a strategic move for businesses. Learn about the costs and best practices for a successful transition.</p>
-        <blockquote class="block-quote">
-            <p>"Migrating to the cloud is a key step in modernizing your business operations."</p>
-            <span>- Managed Migration Expert</span>
-        </blockquote>
-        <figure class="block-gallery">
-            <figure>
-                <img src="assets/images/post-detail-01.jpeg" alt="Costs and Strategies for Managed Cloud Migration">
-            </figure>
-            <figure>
-                <img src="assets/images/post-detail-02.jpeg" alt="Costs and Strategies for Managed Cloud Migration">
-            </figure>
-        </figure>
-        <p>Managed cloud migration is a strategic move for businesses. Learn about the costs and best practices for a successful transition.</p>
-        <h3>Key Considerations</h3>
-        <p>Discover the unique design and user experience offered by SaaS-based managed cloud migration services. Ensure your website is responsive on mobile devices.</p>
-        <ul>
-            <li>Unique Design</li>
-            <li>User Experience</li>
-            <li>Migrated Data</li>
-            <li>Responsive Migration</li>
-        </ul>
-        <p>Managed cloud migration is a strategic move for businesses. Learn about the costs and best practices for a successful transition.</p>
-        <div class="post-tags">
-            <span>Tags</span>
-            <a href="#" title="Managed Cloud Design">Managed Cloud Design</a>
-            <a href="#" title="Managed Cloud Startup">Managed Cloud Startup</a>
-            <a href="#" title="Ui/Ux in Managed Cloud">Ui/Ux in Managed Cloud</a>
-        </div>
-        <div class="post-author-bio flex flex-align-c">
-            <div class="avatar"><img src="assets/images/post-author.webp" alt="Managed Migration Expert"></div>
-            <div class="info">
-                <p>Managed cloud migration expert providing solutions to streamline your business operations and reduce costs.</p>
-            </div>
-        </div>
-        <div class="comments">
-            <div class="comment-head">Comments (5)</div>
-            <ul class="comment-list">
-                <li class="item">
-                    <div class="head">
-                        <div class="avatar"><img src="assets/images/post-author-01.jpg" alt="Andra Mikuto"></div>
-                        <div class="info">
-                            <span class="name">Andra Mikuto</span>
-                            <span class="date">October 15, 2022</span>
-                        </div>
-                        <div class="action"><a href="#" title="Reply">Reply</a></div>
-                    </div>
-                    <div class="content"><p>Managed cloud migration is a game-changer for businesses. It's essential to assess costs and benefits thoroughly.</p></div>
-                    <ul class="children">
-                        <li class="item">
-                            <div class="head">
-                                <div class="avatar"><img src="assets/images/post-author-02.jpg" alt="Nikolas Brooten"></div>
-                                <div class="info">
-                                    <span class="name">Nikolas Brooten</span>
-                                    <span class="date">October 1, 2022</span>
-                                </div>
-                                <div class="action"><a href="#" title="Reply">Reply</a></div>
-                            </div>
-                            <div class="content"><p>Migrating to the cloud is a strategic move that can revolutionize how your business operates.</p></div>
-                            <ul class="children">
-                                <li class="item">
-                                    <div class="head">
-                                        <div class="avatar"><img src="assets/images/post-author-03.jpg" alt="Pearce Frye"></div>
-                                        <div class="info">
-                                            <span class="name">Pearce Frye</span>
-                                            <span class="date">October 15, 2022</span>
-                                        </div>
-                                        <div class="action"><a href="#" title="Reply">Reply</a></div>
+                           <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                              <div class="tp-footer__widget footer-widget-3 footer-col-3-1">
+                                 <div class="tp-footer__logo mb-25">
+                                    <a href="index.html">
+                                       <img src="assets/omette.png" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="tp-footer__contact-info">
+                                   <p>Transform your data platform with cutting-edge solutions</p>
+                                    <ul>
+                                       <li>
+                                          <span>
+                                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M7.08443 4.76996L7.84597 6.13453C8.53323 7.36598 8.25734 8.98143 7.17492 10.0639C7.17492 10.0639 7.17492 10.0639 7.17492 10.0639C7.1748 10.064 5.86209 11.3769 8.24247 13.7573C10.6222 16.137 11.9351 14.8257 11.9359 14.8249C11.936 14.8248 11.9359 14.8248 11.936 14.8248C13.0184 13.7424 14.6338 13.4666 15.8653 14.1538L17.2298 14.9153C19.0893 15.9531 19.3089 18.5609 17.6745 20.1953C16.6923 21.1775 15.4892 21.9417 14.1592 21.9921C11.9202 22.077 8.11782 21.5103 4.30364 17.6961C0.489452 13.882 -0.0771917 10.0796 0.00768762 7.84062C0.0581084 6.5106 0.822313 5.30745 1.80444 4.32532C3.43891 2.69085 6.04667 2.91046 7.08443 4.76996Z" fill="#01103D"/>
+                                                <path d="M10.8646 0.739036C10.9423 0.25925 11.3959 -0.0662177 11.8757 0.0114575C11.9054 0.0171423 12.0009 0.0350017 12.051 0.046152C12.1511 0.0684501 12.2908 0.102781 12.4649 0.153502C12.8132 0.254933 13.2996 0.422028 13.8835 0.689721C15.0526 1.22567 16.6083 2.16321 18.2226 3.77756C19.8369 5.3919 20.7745 6.9476 21.3104 8.11662C21.5781 8.70051 21.7452 9.187 21.8467 9.53524C21.8974 9.70938 21.9317 9.84904 21.954 9.94917C21.9652 9.99923 21.9733 10.0394 21.979 10.0691L21.9857 10.1057C22.0634 10.5855 21.7409 11.0578 21.2611 11.1355C20.7827 11.213 20.332 10.8891 20.2524 10.4115C20.25 10.3987 20.2432 10.3643 20.236 10.3318C20.2215 10.2668 20.1965 10.1637 20.1568 10.0274C20.0774 9.75482 19.9395 9.34961 19.7105 8.85013C19.2531 7.85239 18.4305 6.47462 16.978 5.02212C15.5255 3.56963 14.1478 2.74709 13.15 2.28967C12.6505 2.06068 12.2453 1.92277 11.9727 1.84336C11.8364 1.80366 11.6651 1.76434 11.6001 1.74987C11.1226 1.67029 10.7872 1.21745 10.8646 0.739036Z" fill="#01103D"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1301 4.78659C11.2636 4.31926 11.7507 4.04866 12.2181 4.18218L11.9763 5.02836C12.2181 4.18218 12.2181 4.18218 12.2181 4.18218L12.2198 4.18266L12.2216 4.18318L12.2255 4.18433L12.2346 4.18704L12.2578 4.19427C12.2755 4.19993 12.2976 4.2073 12.3239 4.21665C12.3766 4.23535 12.4463 4.26194 12.5317 4.29856C12.7026 4.37182 12.9362 4.48496 13.2231 4.65476C13.7975 4.99467 14.5815 5.55928 15.5026 6.48035C16.4236 7.40143 16.9883 8.18547 17.3282 8.7598C17.498 9.04671 17.6111 9.28029 17.6844 9.45123C17.721 9.53666 17.7476 9.60631 17.7663 9.65901C17.7756 9.68535 17.783 9.70745 17.7887 9.72514L17.7959 9.74836L17.7986 9.75745L17.7997 9.76137L17.8003 9.76316C17.8003 9.76316 17.8007 9.76485 16.9546 10.0066L17.8007 9.76485C17.9343 10.2322 17.6637 10.7193 17.1963 10.8528C16.733 10.9852 16.2502 10.7203 16.1119 10.2602L16.1075 10.2476C16.1013 10.23 16.0883 10.1953 16.0666 10.1446C16.0232 10.0433 15.9445 9.87754 15.8135 9.65625C15.5519 9.21418 15.0793 8.54623 14.258 7.72492C13.4367 6.9036 12.7687 6.43107 12.3267 6.16944C12.1054 6.03847 11.9397 5.95974 11.8384 5.91633C11.7877 5.8946 11.753 5.88165 11.7353 5.8754L11.7227 5.87106C11.2626 5.73274 10.9977 5.24996 11.1301 4.78659Z" fill="#01103D"/>
+                                             </svg>
+                                          </span>
+                                          <a class="first-child" href="tel:+806(000)8899">+999 (000) 3232 99</a>
+                                       </li>
+                                       <li>
+                                          <span>
+                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 11.5997 0.375616 13.1116 1.04346 14.4525C1.22094 14.8088 1.28001 15.2161 1.17712 15.6006L0.581511 17.8267C0.322954 18.793 1.20701 19.677 2.17335 19.4185L4.39939 18.8229C4.78393 18.72 5.19121 18.7791 5.54753 18.9565C6.88836 19.6244 8.40032 20 10 20Z" fill="#01103D"/>
+                                                <path d="M5.825 10.85C5.36937 10.85 5 11.2194 5 11.675C5 12.1306 5.36937 12.5 5.825 12.5H11.875C12.3306 12.5 12.7 12.1306 12.7 11.675C12.7 11.2194 12.3306 10.85 11.875 10.85H5.825Z" fill="#1C274C"/>
+                                                <path d="M5.825 7C5.36937 7 5 7.36937 5 7.825C5 8.28063 5.36937 8.65 5.825 8.65H14.625C15.0806 8.65 15.45 8.28063 15.45 7.825C15.45 7.36937 15.0806 7 14.625 7H5.825Z" fill="#1C274C"/>
+                                             </svg>   
+                                          </span>
+                                          <a href="">support@omette.cc</span></a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                              <div class="col-xl-3 col-lg-3 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                              <div class="tp-footer__widget footer-widget-3 footer-col-3-2">
+                                 <h4 class="tp-footer__widget-title">Explore</h4>
+                                 <div class="tp-footer__content">
+                                    <ul>
+                                       <li><a href="#">Data Demos</a></li>
+                                       <li><a href="#">About Us</a></li>
+                                       <li><a href="#">Integration Solutions</a></li>
+                                       <li><a href="#">Our Insights</a></li>
+                                       <li><a href="#">Get in Touch</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="col-xl-2 col-lg-2 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+                                 <div class="tp-footer__widget footer-widget-3 footer-col-3-3">
+                                    <h4 class="tp-footer__widget-title">Explore More</h4>
+                                    <div class="tp-footer__content">
+                                       <ul>
+                                          <li><a href="#">Platform Features</a></li>
+                                          <li><a href="#">Our Team</a></li>
+                                          <li><a href="#">Career Opportunities</a></li>
+                                       </ul>
                                     </div>
-                                    <div class="content"><p>Managed cloud migration can bring significant advantages to your business. It's a decision worth considering.</p></div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="item">
-                            <div class="head">
-                                <div class="avatar"><img src="assets/images/post-author-05.jpg" alt="Nikolas Brooten"></div>
-                                <div class="info">
-                                    <span class="name">Nikolas Brooten</span>
-                                    <span class="date">October 15, 2022</span>
-                                </div>
-                                <div class="action"><a href="#" title="Reply">Reply</a></div>
-                            </div>
-                            <div class="content"><p>Managed cloud migration is the future of business operations. It's time to embrace this transformative journey.</p></div>
-                        </li>
-                    </ul>
-                </li>
-                <li class="item">
-                    <div class="head">
-                        <div class="avatar"><img src="assets/images/post-author-04.jpg" alt="Kevin Kay"></div>
-                        <div class="info">
-                            <span class="name">Kevin Kay</span>
-                            <span class="date">October 15, 2022</span>
+                                 </div>
+                              </div>
+                           <div class="col-xl-4 col-lg-4 col-md-6 pb-30 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                              <div class="tp-footer__widget footer-widget-3 footer-col-3-4">
+                                 <h4 class="tp-footer__widget-title">Our Newsletter</h4>
+                                 <div class="tp-footer__input mb-35 p-relative">
+                                    <form action="#">
+                                       <input type="text" placeholder="Business email adress">
+                                       <span>
+                                          <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M13 14.6H5C2.6 14.6 1 13.4 1 10.6V5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6Z"
+                                                stroke="#5F6168" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                             <path opacity="0.4"
+                                                d="M13 5.39993L10.496 7.39993C9.672 8.05593 8.32 8.05593 7.496 7.39993L5 5.39993"
+                                                stroke="#5F6168" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                          </svg>
+                                       </span>
+                                       <button>
+                                          <svg width="14" height="16" viewBox="0 0 14 14" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M1.00098 7H13.001" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                             <path d="M7.00098 1L13.001 7L7.00098 13" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                       </button>
+                                    </form>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                        <div class="action"><a href="#" title="Reply">Reply</a></div>
-                    </div>
-                    <div class="content"><p>Managed cloud migration can unlock new possibilities for your business. It's a strategic move that can drive growth.</p></div>
-                </li>
-            </ul>
-            <div class="comment-respond">
-                <div class="head">
-                    <h3>Leave a Reply</h3>
-                    <p>Your email address will not be published. Required fields are marked *</p>
-                </div>
-                <form action="#" class="commentform">
-                    <div class="field-group">
-                        <div class="field-input">
-                            <input type="text" name="name" placeholder="Your Name *">
+                     </div>
+                  </div>
+                  <div class="tp-copyright__area pt-25 pb-40">
+                     <div class="container">
+                        <div class="row justify-content-center">
+                           <div class="col-xl-4 col-lg-6 col-md-6">
+                              <div class="tp-copyright__text tp-copyright__text-3 text-center">
+                                 <span>Full Copyright & Design By <a href="#">@Omette</a> – 2023</span>
+                              </div>
+                           </div>
                         </div>
-                        <div class="field-input">
-                            <input type="email" name="email" placeholder="Your Email *">
-                        </div>
-                        <div class="field-input">
-                            <input type="text" name="website" placeholder="Website">
-                        </div>
-                    </div>
-                    <div class="field-input">
-                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment*"></textarea>
-                    </div>
-                    <div class="field-submit">
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </article>
-    <div class="post-related">
-        <h3 class="title">Related Posts</h3>
-        <div class="row">
-            <div class="col-lg-6 col-12">
-                <article class="post post-grid format-video">
-                    <div class="entry-thumbnail">
-                        <a href="#" title="Managed Migration Strategies">
-                            <img src="assets/images/post-01.jpg" alt="Managed Migration Strategies">
-                        </a>
-                    </div>
-                    <div class="entry-content">
-                        <div class="entry-category">
-                            <a href="#" title="Managed Migration Marketing">Managed Migration Marketing</a>
-                            <a href="#" title="Managed Migration Solutions">Managed Migration Solutions</a>
-                        </div>
-                        <div class="entry-title">
-                            <h3><a href="#" title="Managed Migration Strategies">Managed Migration Strategies</a></h3>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <div class="col-lg-6 col-12">
-                <article class="post post-grid format-gallery">
-                    <div class="entry-thumbnail">
-                        <a href="#" title="Managed Migration Best Practices">
-                            <img src="assets/images/post-02.jpeg" alt="Managed Migration Best Practices">
-                        </a>
-                    </div>
-                    <div class="entry-content">
-                        <div class="entry-category">
-                            <a href="#" title="Managed Migration Tutorials">Managed Migration Tutorials</a>
-                            <a href="#" title="Ui/Ux in Managed Migration">Ui/Ux in Managed Migration</a>
-                        </div>
-                        <div class="entry-title">
-                            <h3><a href="#" title="Managed Migration Best Practices">Managed Migration Best Practices</a></h3>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-</div>
+                     </div>
+                  </div>
+               </div>
+               <!-- tp-footer-area-end -->
+            </footer>
+      </div>
+   </div>
 
-</div>
+   <!-- JS here -->
+   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.js"></script>
+   <script src="assets/js/waypoints.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/slick.min.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/counterup.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/tilt.jquery.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/jarallax.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/ScrollTrigger.min.js"></script>
+   <script src="assets/js/ScrollSmoother.min.js"></script>
+   <script src="assets/js/parallax-scroll.js"></script>
+   <script src="assets/js/split-text.min.js"></script>
+   <script src="assets/js/main.js"></script>
 
-                        </div>
-                    </div>
-                </div><!-- SITE CONTENT -->
-            </main>
-            <!-- END SITE MAIN -->
 
-            <!-- BEGIN SITE FOOTER -->
-   <footer id="footer" class="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="inner">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-item footer-about">
-                            <div class="logo">
-                                <a href="index.html">
-                                   <img src="./assets/liverro.png" alt="">
-                                </a>
-                            </div>
-                          <p>A cutting-edge managed migration solution tailored for startups, applications, businesses, SaaS, and IT services.</p>
 
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-item footer-menu">
-                            <h6>Company</h6>
-                            <ul>
-                                <li><a href="about.html" title="About us">About us</a></li>
-                                <li><a href="blog.html" title="Blog">Blog</a></li>
-                                <li><a href="contact.html" title="Contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-item footer-menu">
-                            <h6>Resources</h6>
-                            <ul>
-                                <li><a href="#" title="Downloads">Downloads</a></li>
-                                <li><a href="#" title="Help Center">Help Center</a></li>
-                                <li><a href="#" title="Partners">Partners</a></li>
-                                <li><a href="#" title="Press Kit">Press Kit</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="footer-item footer-newsletter">
-                            <h6>Newsletter</h6>
-                            <p>Subscribe to our newsletter and stay up to date with the latest managed migration news.</p>
-                            <form action="#" class="newsletter">
-                                <div class="field-input">
-                                    <input type="email" value="" placeholder="Email address">
-                                </div>
-                                <div class="field-submit">
-                                    <button>Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="inner flex flex-content-sb flex-align-c">
-                <div class="copyright">© 2023 liverro.site All rights reserved</div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="privacy-policy.html" title="Terms">Terms</a></li>
-                        <li><a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-            <!-- END SITE FOOTER -->
+</body>
 
-            <!-- BEGIN BACK TO TOP -->
-            <a
-                href="#"
-                id="backtotop"
-                class="backtotop"
-            >
-                <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        d="M5.52344 18.5234C5.3151 18.3151 5.3151 18.0938 5.52344 17.8594L13.7266 9.69531C13.9349 9.46094 14.1432 9.46094 14.3516 9.69531L22.5547 17.8594C22.763 18.0938 22.763 18.3151 22.5547 18.5234L21.7734 19.3047C21.5651 19.5391 21.3438 19.5391 21.1094 19.3047L14.0391 12.2344L6.96875 19.3047C6.73438 19.5391 6.51302 19.5391 6.30469 19.3047L5.52344 18.5234Z"
-                        fill="#ffffff"
-                    ></path>
-                </svg>
-            </a>
-            <!-- END BACK TO TOP -->
-
-            <!-- BEGIN SWITCHER -->
-            <!-- END SWITCHER -->
-
-            <!-- BEGIN POPUP -->
-            <div id="popup-wrap" class="popup-wrap popup-video">
-                <div class="overlay"></div>
-                <span class="close">
-                    <svg
-                        width="28"
-                        height="28"
-                        viewBox="0 0 28 28"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M15.3672 14.5L20.2109 19.3438C20.3411 19.474 20.3411 19.6172 20.2109 19.7734L19.3125 20.6719C19.1562 20.8021 19.013 20.8021 18.8828 20.6719L18.0625 19.8125L14.0391 15.8281L9.19531 20.6719C9.0651 20.8021 8.92188 20.8021 8.76562 20.6719L7.86719 19.7734C7.73698 19.6172 7.73698 19.474 7.86719 19.3438L12.7109 14.5L7.86719 9.65625C7.73698 9.52604 7.73698 9.38281 7.86719 9.22656L8.76562 8.32812C8.92188 8.19792 9.0651 8.19792 9.19531 8.32812L14.0391 13.1719L18.8828 8.32812C19.013 8.19792 19.1562 8.19792 19.3125 8.32812L20.2109 9.22656C20.3411 9.38281 20.3411 9.52604 20.2109 9.65625L19.3516 10.4766L15.3672 14.5Z"
-                            fill="#ffffff"
-                        ></path>
-                    </svg>
-                </span>
-                <div class="inner">
-                    <iframe
-                        src="https://www.youtube.com/embed/vfhzo499OeA?controls=0"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
-                </div>
-            </div>
-            <!-- END POPUP -->
-        </div>
-
-        <!-- jQuery -->
-        <script src="assets/js/jquery-1.12.4.js"></script>
-        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/libs/isotope/isotope.pkgd.min.js"></script>
-        <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
