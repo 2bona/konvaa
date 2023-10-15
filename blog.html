@@ -4,14 +4,14 @@
         <meta charset="UTF-8" >
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-       <title>Ovast || Application Hosting</title>
+        <title>Sala</title>
 
         <!-- Style CSS -->
         <link rel="preconnect" href="https://fonts.googleapis.com" >
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
         <link
             rel="shortcut icon"
-            href="assets/favicon.png"
+            href="assets/images/favicon1.png"
             type="image/png"
         >
         <link
@@ -25,6 +25,10 @@
         <link
             rel="stylesheet"
             href="assets/libs/bootstrap/css/bootstrap.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/swiper/swiper-bundle.min.css"
         >
         <link rel="stylesheet" href="assets/css/style.css" >
     </head>
@@ -56,13 +60,11 @@
                                     </div>
                                 </div>
                                 <div class="logo">
-                                    <a href="index.html">
-                                       <img src="assets/ovast-01.png" alt="logo" style="width: 200px;"> 
-                                    </a>
-                                </div>
+                                    <a class="" href="index.html"><img src="assets/images/frohl-02.png" alt="Frohl" style="height: auto; width: 10rem;"></a>
+                                    </div>
                             </div>
                         </div>
-                       <div class="col-lg-6 col-0 text-center">
+                        <div class="col-lg-6 col-0 text-center">
                             <div class="header-center">
                                 <div class="main-menu">
                                     <div class="menu-action">
@@ -71,19 +73,20 @@
                                     </div>
                                     <ul>
                                         <li class="is-mega-menu">
-                                            <a href="index.html">HOME</a>
+                                            <a href="/">Home</a>
+                                            
                                         </li>
                                         <li class="is-mega-menu">
-                                            <a href="about.html">ABOUT US</a>
+                                            <a href="/about.html">About</a>
                                         </li>
                                         <li class="is-mega-menu">
-                                            <a href="faqs.html">FAQ</a>
+                                            <a href="/team.html">Team</a>
                                         </li>
                                         <li class="is-mega-menu">
-                                            <a href="contact.html">CONTACT US</a>
+                                            <a href="/blog.html">Blog</a>
                                         </li>
-                                        <li class="is-mega-menu">
-                                            <a href="blog.html">PUBLICATIONS</a>
+                                        <li class="is-normal-menu">
+                                            <a href="/contact.html">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -96,184 +99,151 @@
 
             <!-- BEGIN SITE MAIN -->
             <main id="main" class="site-main">
-               <section class="page-title">
-                <div class="container">
-                    <div class="inner align-center">
-                        <h1 class="title">Application Hosting Services</h1>
-                        <p class="desc">Powering your digital success with cutting-edge hosting solutions.</p>
+                <section class="page-title">
+                    <div class="container">
+                        <div class="inner align-center">
+                            <h1 class="title">Cloud Infrastructure Design</h1>
+                            <p class="desc">Building the future of cloud infrastructure with Frohl.</p>
+                        </div>
                     </div>
-                </div>
-            </section>
-
-        <!-- PAGE TITLE -->
-            <div class="site-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="blog-middle">
-                    <div class="blog-action top-action flex flex-align-c flex-content-sb">
-                        <div class="results">Showing 1-4 of 15 results</div>
-                        <div class="sort flex flex-align-c flex-content-sb">
-                            <div class="sort-item sort-category">
-                                <select name="category" id="category">
-                                    <option value="all">All Application Hosting Services</option>
-                                    <option value="data">Cloud Hosting</option>
-                                    <option value="application">Web Application Hosting</option>
-                                    <option value="cloud">Cloud Solutions</option>
-                                    <option value="infrastructure">Hosting Team</option>
-                                </select>
+                </section>
+                <!-- PAGE TITLE -->
+                <div class="site-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="blog-middle">
+                                    <div class="blog-action top-action flex flex-align-c flex-content-sb">
+                                        <div class="sort flex flex-align-c flex-content-sb">
+                                            <div class="sort-item sort-category">
+                                                <select name="category" id="category">
+                                                    <option value="all">All Categories</option>
+                                                    <option value="marketing">Marketing</option>
+                                                    <option value="creative">Creative</option>
+                                                    <option value="tutorials">Tutorials</option>
+                                                    <option value="ui_ux_design">Ui/Ux Design</option>
+                                                    <option value="resources">Resources</option>
+                                                    <option value="ebooks">Ebooks</option>
+                                                </select>
+                                            </div>
+                                            <div class="sort-item sort-tag">
+                                                <select name="tag" id="tag">
+                                                    <option value="all">All Tags</option>
+                                                    <option value="marketing">Design</option>
+                                                    <option value="creative">Saas</option>
+                                                    <option value="tutorials">Startup</option>
+                                                    <option value="ui_ux_design">Ui/Ux</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <article class="post post-grid format-video post-featured style-bg">
+                                                <div class="entry-thumbnail">
+                                                    <a href="blog-detail.html" title="Top 5 Cloud Infrastructure Designs by Frohl">
+                                                        <img src="assets/images/post-09.jpeg" alt="Top 5 Cloud Infrastructure Designs by Frohl">
+                                                    </a>
+                                                </div>
+                                                <div class="entry-content">
+                                                    <div class="entry-category">
+                                                        <a  title="Cloud Infrastructure">Cloud Infrastructure</a>
+                                                        <a  title="Design">Design</a>
+                                                    </div>
+                                                    <div class="entry-title">
+                                                        <h3><a href="blog-detail.html" title="Top 5 Cloud Infrastructure Designs by Frohl">Top 5 Cloud Infrastructure Designs by Frohl</a><span>Featured</span></h3>
+                                                    </div>
+                                                    <div class="entry-description">
+                                                        <p>Cloud infrastructure is the backbone of the modern digital world, enabling businesses to operate at scale and agility. Here are the top 5 designs by Frohl that have revolutionized the industry...</p>
+                                                    </div>
+                                                    <div class="entry-action">
+                                                        <a href="blog-detail.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <article class="post post-grid format-gallery style-bg">
+                                                <div class="entry-thumbnail">
+                                                    <a href="blog-detail-1.html" title="How to Design a Robust Cloud Infrastructure in 2023">
+                                                        <img src="assets/images/post-05.jpeg" alt="How to Design a Robust Cloud Infrastructure in 2023">
+                                                    </a>
+                                                </div>
+                                                <div class="entry-content">
+                                                    <div class="entry-category">
+                                                        <a  title="Tutorials">Tutorials</a>
+                                                        <a  title="Cloud Infrastructure">Cloud Infrastructure</a>
+                                                    </div>
+                                                    <div class="entry-title">
+                                                        <h3><a href="blog-detail-1.html" title="How to Design a Robust Cloud Infrastructure in 2023">How to Design a Robust Cloud Infrastructure in 2023</a></h3>
+                                                    </div>
+                                                    <div class="entry-description">
+                                                        <p>Designing a robust cloud infrastructure is key to the success of any modern business. In this guide, we'll walk you through the steps to design and deploy an efficient, scalable, and secure cloud infrastructure for your business...</p>
+                                                    </div>
+                                                    <div class="entry-action">
+                                                        <a href="blog-detail-1.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <article class="post post-grid format-video style-bg">
+                                                <div class="entry-thumbnail">
+                                                    <a href="blog-detail-2.html" title="Top 5 Cloud Infrastructure Deployment Strategies in 2023">
+                                                        <img src="assets/images/post-08.jpg" alt="Top 5 Cloud Infrastructure Deployment Strategies in 2023">
+                                                    </a>
+                                                </div>
+                                                <div class="entry-content">
+                                                    <div class="entry-category">
+                                                        <a  title="Resources">Resources</a>
+                                                        <a  title="Tutorials">Tutorials</a>
+                                                    </div>
+                                                    <div class="entry-title">
+                                                        <h3><a href="blog-detail-2.html" title="Top 5 Cloud Infrastructure Deployment Strategies in 2023">Top 5 Cloud Infrastructure Deployment Strategies in 2023</a></h3>
+                                                    </div>
+                                                    <div class="entry-description">
+                                                        <p>Deploying a robust cloud infrastructure is a complex task that requires careful planning and strategy. In this guide, we'll explore the top 5 strategies for deploying cloud infrastructure in 2023...</p>
+                                                    </div>
+                                                    <div class="entry-action">
+                                                        <a href="blog-detail-2.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
                             </div>
-                            <div class="sort-item sort-tag">
-                                <select name="tag" id="tag">
-                                    <option value="all">All Tags</option>
-                                    <option value="strategy">Hosting Strategy</option>
-                                    <option value="process">Hosting Process</option>
-                                    <option value="benefits">Hosting Benefits</option>
-                                    <option value="challenges">Hosting Challenges</option>
-                                </select>
-                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <article class="post post-grid format-audio">
-                                <div class="entry-thumbnail">
-                                    <a href="#" title="Optimizing Your Application Hosting">
-                                        <img src="assets/images/post-03.jpeg" alt="Optimizing Your Application Hosting">
-                                    </a>
-                                </div>
-                                <div class="entry-content">
-                                    <div class="entry-category">
-                                        <a href="#" title="Cloud Hosting">Cloud Hosting</a>
-                                        <a href="#" title="Hosting Solutions">Hosting Solutions</a>
-                                    </div>
-                                    <div class="entry-title">
-                                        <h3><a href="#" title="Optimizing Your Application Hosting">Optimizing Your Application Hosting</a></h3>
-                                    </div>
-                                    <div class="entry-description">
-                                        <p>Efficiently optimize your application hosting processes with our proven strategies and solutions.</p>
-                                    </div>
-                                    <div class="entry-action">
-                                        <a href="blog-detail.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <article class="post post-grid">
-                                <div class="entry-thumbnail">
-                                    <a href="#" title="Optimizing Application Hosting in the Cloud">
-                                        <img src="assets/images/post-04.jpeg" alt="Optimizing Application Hosting in the Cloud">
-                                    </a>
-                                </div>
-                                <div class="entry-content">
-                                    <div class="entry-category">
-                                        <a href="#" title="Cloud Hosting">Cloud Hosting</a>
-                                        <a href="#" title="Cloud Solutions">Cloud Solutions</a>
-                                    </div>
-                                    <div class="entry-title">
-                                        <h3><a href="#" title="Optimizing Application Hosting in the Cloud">Optimizing Application Hosting in the Cloud</a></h3>
-                                    </div>
-                                    <div class="entry-description">
-                                        <p>Discover how optimizing application hosting in the cloud can transform your business and boost efficiency.</p>
-                                    </div>
-                                    <div class="entry-action">
-                                        <a href="blog-details-2.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <article class="post post-grid">
-                                <div class="entry-thumbnail">
-                                    <a href="#" title="Streamlining Cloud Application Hosting">
-                                        <img src="assets/images/post-05.jpeg" alt="Streamlining Cloud Application Hosting">
-                                    </a>
-                                </div>
-                                <div class="entry-content">
-                                    <div class="entry-category">
-                                        <a href="#" title="Cloud Hosting">Cloud Hosting</a>
-                                        <a href="#" title="Cloud Solutions">Cloud Solutions</a>
-                                    </div>
-                                    <div class="entry-title">
-                                        <h3><a href="#" title="Streamlining Cloud Application Hosting">Streamlining Cloud Application Hosting</a></h3>
-                                    </div>
-                                    <div class="entry-description">
-                                        <p>Enhance your cloud application hosting practices and overcome challenges with our expert guidance.</p>
-                                    </div>
-                                    <div class="entry-action">
-                                        <a href="blog-details-3.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-12">
-                            <article class="post post-grid">
-                                <div class="entry-thumbnail">
-                                    <a href="#" title="Optimizing Cloud Application Hosting Applications">
-                                        <img src="assets/images/post-06.jpeg" alt="Optimizing Cloud Application Hosting Applications">
-                                    </a>
-                                </div>
-                                <div class="entry-content">
-                                    <div class="entry-category">
-                                        <a href="#" title="Cloud Hosting">Cloud Hosting</a>
-                                        <a href="#" title="Cloud Applications">Cloud Applications</a>
-                                    </div>
-                                    <div class="entry-title">
-                                        <h3><a href="#" title="Optimizing Cloud Application Hosting Applications">Strategy of Implementing Application Hosting Applications</a></h3>
-                                    </div>
-                                    <div class="entry-description">
-                                        <p>Discover the best practices for optimizing cloud application hosting applications for superior performance.</p>
-                                    </div>
-                                    <div class="entry-action">
-                                        <a href="blog-details-4.html" title="Read More">Read More<i class="las la-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="pagination align-center">
-                        <div class="inner">
-                            <a href="#" title="Prev" class="prev"><i class="las la-long-arrow-alt-left"></i>Prev</a>
-                            <span>1</span>
-                            <a href="#" title="2" class="number">2</a>
-                            <a href="#" title="Next" class="next">Next<i class="las la-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-                <!-- SITE CONTENT -->
+                </div><!-- SITE CONTENT -->
             </main>
             <!-- END SITE MAIN -->
 
             <!-- BEGIN SITE FOOTER -->
-        <footer id="footer" class="footer">
+            <footer id="footer" class="footer">
                 <div class="footer-top">
                     <div class="container">
                         <div class="inner">
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-5">
                                     <div class="footer-item footer-about">
                                         <div class="logo">
-                                            <a href="index.html">
-                                                <img src="./assets/ovast-01.png" alt="logo">
-                                            </a>
+                                            <a class="" href="index.html"><img src="assets/images/frohl-02.png" alt="Frohl" style="height: auto; width: 10rem;"></a>
                                         </div>
-                                        <p>An amazing hosting service designed specifically for startups, apps, businesses, SaaS, and IT services.</p>
+                                        <p>A leading startup specializing in cloud infrastructure design and deployment.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-2">
                                     <div class="footer-item footer-menu">
-                                        <h6>Ovast</h6>
+                                        <h6>Company</h6>
                                         <ul>
-                                            <li><a href="about.html" title="About us">ABOUT US</a></li>
-                                            <li><a href="blog.html" title="Blog">PUBLICATIONS</a></li>
-                                            <li><a href="faqs.html" title="Careers">FAQ</a></li>
-                                            <li><a href="contact.html" title="Contact">CONTACT US</a></li>
+                                            <li><a href="about.html" title="About us">About us</a></li>
+                                            <li><a href="blog.html" title="Blog">Blog</a></li>
+                                            <li><a href="team.html" title="Team">Team</a></li>
+                                            <li><a href="contact.html" title="Contact">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -281,48 +251,26 @@
                                     <div class="footer-item footer-menu">
                                         <h6>Resources</h6>
                                         <ul>
-                                            <li><a href="#" title="Downloads">Downloads</a></li>
-                                            <li><a href="#" title="Help Center">Help Center</a></li>
-                                            <li><a href="#" title="Partners">Partners</a></li>
-                                            <li><a href="#" title="Press Kit">Press Kit</a></li>
+                                            <li><a href="contact.html" title="Help Center">Help Center</a></li>
+                                            <li><a href="contact.html" title="Partners">Partners</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-2">
-                                    <div class="footer-item footer-menu">
-                                        <!-- Your content here, if needed -->
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="footer-item footer-newsletter">
-                                        <h6>Newsletter</h6>
-                                        <p>Subscribe to our newsletter and stay up to date with the latest from our hosting services.</p>
-                                        <form action="#" class="newsletter">
-                                            <div class="field-input">
-                                                <input type="email" value="" placeholder="Email address">
-                                            </div>
-                                            <div class="field-submit">
-                                                <button>Subscribe</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
+                    
+                    
                 </div>
                 <div class="footer-bottom">
                     <div class="container">
                         <div class="inner flex flex-content-sb flex-align-c">
-                            <div class="copyright">© 2023 Ovast Hosting. All rights reserved</div>
-                            <div class="menu">
-                                <ul>
-                                    <li><a  title="Terms">Terms</a></li>
-                                    <li><a title="Privacy Policy">Privacy Policy</a></li>
-                                </ul>
-                            </div>
+                            <div class="copyright">© 2023 Frohl. All rights reserved</div>
+                            
                         </div>
                     </div>
+                    
                 </div>
             </footer>
             <!-- END SITE FOOTER -->
@@ -350,13 +298,49 @@
             <!-- END BACK TO TOP -->
 
             <!-- BEGIN SWITCHER -->
-            
+            <div class="dl-switcher">
+                <div class="item">
+                    <span class="state dark" data-text="Dark">Dark</span>
+                    <span class="state light" data-text="Light">Light</span>
+                </div>
+                <div class="toddler">Light</div>
+            </div>
             <!-- END SWITCHER -->
+
+            <!-- BEGIN POPUP -->
+            <div id="popup-wrap" class="popup-wrap popup-video">
+                <div class="overlay"></div>
+                <span class="close">
+                    <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M15.3672 14.5L20.2109 19.3438C20.3411 19.474 20.3411 19.6172 20.2109 19.7734L19.3125 20.6719C19.1562 20.8021 19.013 20.8021 18.8828 20.6719L18.0625 19.8125L14.0391 15.8281L9.19531 20.6719C9.0651 20.8021 8.92188 20.8021 8.76562 20.6719L7.86719 19.7734C7.73698 19.6172 7.73698 19.474 7.86719 19.3438L12.7109 14.5L7.86719 9.65625C7.73698 9.52604 7.73698 9.38281 7.86719 9.22656L8.76562 8.32812C8.92188 8.19792 9.0651 8.19792 9.19531 8.32812L14.0391 13.1719L18.8828 8.32812C19.013 8.19792 19.1562 8.19792 19.3125 8.32812L20.2109 9.22656C20.3411 9.38281 20.3411 9.52604 20.2109 9.65625L19.3516 10.4766L15.3672 14.5Z"
+                            fill="#ffffff"
+                        ></path>
+                    </svg>
+                </span>
+                <div class="inner">
+                    <iframe
+                        src="https://www.youtube.com/embed/vfhzo499OeA?controls=0"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+            <!-- END POPUP -->
         </div>
 
         <!-- jQuery -->
         <script src="assets/js/jquery-1.12.4.js"></script>
         <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/libs/isotope/isotope.pkgd.min.js"></script>
         <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
