@@ -560,7 +560,7 @@ input[type=color] {
 
 .tp-btn-blue-lg {
   display: inline-block;
-  background: #FF6969;
+  background: #5B6CFF;
   box-shadow: inset -2px -2px 2px rgba(7, 13, 29, 0.3);
   border-radius: 100px;
   color: var(--tp-common-white);
@@ -995,7 +995,7 @@ input[type=color] {
 }
 .tp-btn-purple:hover {
   color: var(--tp-common-white);
-  background: #FF6969;
+  background: #6B14FA;
 }
 
 .tp-btn-purple-lg {
@@ -1122,7 +1122,7 @@ input[type=color] {
 }
 
 .submit-btn {
-  background-color: #FF6969;
+  background-color: var(--tp-common-blue-4);
   text-align: center;
   height: 55px;
   padding: 0px 20px;
@@ -1155,7 +1155,7 @@ input[type=color] {
 
 .tp-btn-inner {
   display: inline-block;
-  background: #FF6969;
+  background: var(--tp-common-blue-4);
   color: var(--tp-common-white);
   height: 50px;
   line-height: 50px;
@@ -2023,7 +2023,7 @@ input[type=color] {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: #FF6969;
+  background: var(--tp-theme-1);
   -webkit-animation: preloader 1.3s linear infinite;
   animation: preloader 1.3s linear infinite;
 }
@@ -2067,7 +2067,7 @@ input[type=color] {
   color: var(--tp-common-white);
   text-align: center;
   cursor: pointer;
-  background: #FF6969;
+  background: var(--tp-common-black);
   transition: 1s ease;
   border: none;
 }
@@ -2112,7 +2112,7 @@ input[type=color] {
 }
 
 .blue-bg-2 {
-  background: #FF6969;
+  background: var(--tp-common-blue-4);
 }
 
 .swiper-slide-active .blog-grid-slider-meta {
@@ -2369,7 +2369,7 @@ input[type=color] {
   right: 0%;
 }
 .about-banner {
-  background-color: #FF6969;
+  background-color: #600EE4;
   height: 540px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2445,7 +2445,7 @@ input[type=color] {
   font-size: 110px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: #FF6969;
+  color: #600EE4;
   margin-left: 100px;
   margin-top: -140px;
 }
@@ -3486,7 +3486,7 @@ input[type=color] {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.06em;
-  color: #FF6969;
+  color: #6B14FA;
   padding-bottom: 10px;
   display: inline-block;
   text-transform: uppercase;
@@ -4048,7 +4048,7 @@ input[type=color] {
   }
 }
 .header-bottom__main-menu nav ul li:hover a {
-  color: #555;
+  color: var(--tp-theme-1);
 }
 .header-bottom__main-menu nav ul li a {
   font-weight: 500;
@@ -16595,7 +16595,7 @@ input[type=color] {
   border-radius: 40px;
 }
 .footer-widget-3 .tp-footer__input button {
-  background: #FF6969;
+  background: #5B6CFF;
   border-radius: 100px;
   line-height: 0;
 }
