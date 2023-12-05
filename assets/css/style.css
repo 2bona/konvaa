@@ -1030,7 +1030,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-size: 46px;
   font-weight: 700;
   letter-spacing: 1.38px;
-  color: #F1EB90;
+  color: #071952;
   margin-bottom: 15px;
 }
 .breadcrumb-area .page-list {
@@ -1863,7 +1863,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   right: 0;
   top: 61%;
   content: "";
-  background: var(--main-color-two);
+  background: #0B666A;
   height: 1px;
   width: 0%;
   visibility: hidden;
@@ -1885,7 +1885,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   left: 0;
   top: 61%;
   content: "";
-  background: var(--main-color-one);
+  background: #0B666A;
   height: 1px;
   width: 100%;
   visibility: visible;
@@ -1896,7 +1896,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   transition: all 0.3s ease-in;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: var(--main-color-one);
+  color: #0B666A;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children {
   position: relative;
@@ -1985,11 +1985,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
   line-height: 80px;
   display: inline-block;
-  color: #363062;
+  color: #071952;
   transition: all 0.3s ease-in;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li a:hover {
-  color:#F1EB90 ;
+  color:#0B666A ;
 }
 
 .navbar-area-fixed {
@@ -2031,19 +2031,19 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-area-2.navbar-area-fixed .nav-container .navbar-collapse .navbar-nav > li > a {
-    color: #363062;
+    color: #01358D;
   }
   .navbar-area-2.navbar-area-fixed .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-    color: #F1EB90;
+    color: #071952;
   }
   .navbar-area-2.navbar-area-fixed .nav-container .navbar-collapse .navbar-nav li.current-menu-item:before {
-    background: #F1EB90;
+    background: #0B666A;
   }
   .navbar-area-2.navbar-area-fixed .nav-container .navbar-collapse .navbar-nav li:before {
-    background: #F1EB90;
+    background: #0B666A;
   }
   .navbar-area-2.navbar-area-fixed .nav-container .navbar-collapse .navbar-nav li:hover a {
-    color: #F1EB90;
+    color: #0B666A;
   }
   .navbar-area-2.navbar-area-fixed .nav-container .nav-right-content ul li {
     color: #6a7795;
@@ -2498,13 +2498,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .header-area .title {
   font-size: 65px;
   line-height: 74px;
-  color: #01358D;
+  color: #071952;
   font-weight: 700;
   margin-bottom: 30px;
   font-family: var(--poppins-font) !important;
 }
 .header-area .title span {
-  color: var(--main-color-two);
+  color: #0B666A;
 }
 .header-area .title span.typed {
   color: inherit;
@@ -3915,7 +3915,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.72px;
-  color: #363062;
+  color: #071952;
   display: block;
 }
 .single-blog-content .single-blog-details p {
@@ -3936,7 +3936,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   position: relative;
 }
 .single-blog-content .single-blog-details a:hover {
-  color: #F1EB90;
+  color: #0B666A;
 }
 .single-blog-content .single-blog-details a:hover span {
   margin-left: 3px;
@@ -4409,8 +4409,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   bottom: 30px;
   width: 50px;
   height: 50px;
-  background-color: #F1EB90;
-  color: #000;
+  background-color: #0B666A;
+  color: #fff;
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -4452,7 +4452,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: #fff;
   font-weight: 600;
   text-transform: capitalize;
-  color: #F1EB90;
+  color: #071952;
   width: 200px;
   height: 50px;
   text-align: center;
@@ -4481,7 +4481,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #F1EB90;
+  background-color: #071952;
   border-radius: 100%;
   animation: sk-bounce 2s infinite ease-in-out;
 }
@@ -4828,17 +4828,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .btn-blue {
-  background: #F1EB90;
-  color: #000;
+  background: #0B666A;
+  color: #fff;
 }
 .btn-blue:hover {
   opacity: 0.7;
-  color: #000;
+  color: #fff;
 }
 
 .btn-red {
-  background: #363062;
-  box-shadow: 0px 10px 14px #363062;
+  background: #0B666A;
+  box-shadow: 0px 10px 14px #0B666A;
   color: #fff;
 }
 .btn-red:hover {
@@ -4848,13 +4848,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .btn-red-border {
   background: #fff;
-  border: 1px solid #363062;
+  border: 1px solid #0B666A;
 }
 .btn-red-border:hover {
   opacity: 0.8;
   color: #fff;
-  box-shadow: 0px 10px 14px #363062;
-  background: #363062;
+  box-shadow: #0B666A;
+  background: #0B666A;
 }
 
 .btn-gray {
@@ -4962,14 +4962,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .section-title .title {
   letter-spacing: 0.92px;
-  color: #363062;
+  color: #071952;
   opacity: 1;
   font-weight: 700;
   margin-bottom: 0;
   font-family: var(--poppins-font);
 }
 .section-title .title span {
-  color: #F1EB90;
+  color: #0B666A;
 }
 .section-title .title-2 {
   font-size: 36px;
